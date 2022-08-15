@@ -6,7 +6,6 @@ import { filterChange } from 'redux/contacts/contacts-actions';
 
 export const Filter = () => {
   const filter = useSelector(state => state.contacts.filter);
-  console.log('filter', filter);
   const dispatch = useDispatch();
 
   return (
