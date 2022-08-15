@@ -11,7 +11,7 @@ import {
 // import { createReducer, createAction } from '@reduxjs/toolkit';
 
 // import { contactsSlise } from './contactsSlice';
-import contactsReducer from './contacts/contacts-reducer';
+import { contactsReducer } from './contacts';
 
 // export const addContact = createAction('contacts/add');
 // export const removeContact = createAction('contacts/remove');
